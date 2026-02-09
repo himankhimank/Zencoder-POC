@@ -103,7 +103,6 @@ On deployment failure:
 ## What This POC Is Not
 
 - Not a generic AI coding assistant  
-- Not an auto-optimization or refactoring tool  
 - Not a replacement for clear requirement definition  
 - Not a full CI/CD pipeline
 
@@ -115,16 +114,6 @@ On deployment failure:
 - Enable safe, deterministic Salesforce development using AI
 - Establish a reusable instruction framework for enterprise AI agents
 - Lay the foundation for scalable Jira → AI → Salesforce workflows
-
----
-
-## Future Enhancements
-
-- Separate Analysis and Execution agents
-- Machine-enforceable instruction contracts (JSON/YAML)
-- Jira field-level traceability
-- CI/CD pipeline integration
-- Multi-org deployment support
 
 ---
 
