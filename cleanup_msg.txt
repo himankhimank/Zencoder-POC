@@ -1,7 +1,0 @@
-SCRUM-11: Cleanup POC Application and Components  
-  
-- Removed NTT Data x ZenCoder Lightning Application  
-- Removed NTT_Data_x_ZenCoder_Home Flexipage  
-- Removed contactRegistrationForm LWC  
-- Removed ContactRegistrationController and test classes  
-- Reverted System Administrator profile access configuration  
