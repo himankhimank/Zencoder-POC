@@ -1,0 +1,16 @@
+<template>
+    <lightning-card title="Contact Registration Form" icon-name="standard:contact">
+        <div class="slds-p-around_medium">
+            <lightning-input label="First Name" value={firstName} onchange={handleFirstNameChange} required class="validate"></lightning-input>
+            <lightning-input label="Last Name" value={lastName} onchange={handleLastNameChange} required class="validate"></lightning-input>
+            <lightning-input label="Mobile" value={mobile} onchange={handleMobileChange} required type="tel" class="validate"></lightning-input>
+            <lightning-input label="Work Email" value={email} onchange={handleEmailChange} required type="email" class="validate"></lightning-input>
+            <lightning-input label="Designation" value={designation} onchange={handleDesignationChange} required class="validate"></lightning-input>
+            
+            <div class="slds-m-top_medium">
+                <lightning-button label="Reset" onclick={handleReset} variant="neutral" class="slds-m-right_small"></lightning-button>
+                <lightning-button label="Submit" onclick={handleSubmit} variant="brand"></lightning-button>
+            </div>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,9 @@
+SCRUM-11: Implement NTT Data x ZenCoder POC Application  
+  
+- Created NTT Data x ZenCoder Lightning Application  
+- Restricted application access to System Administrator profile  
+- Developed NTT_Data_x_ZenCoder_Home Flexipage with custom LWC  
+- Implemented contactRegistrationForm LWC for contact onboarding  
+- Created ContactRegistrationController Apex class for record persistence  
+- Added ContactRegistrationControllerTest with 100% code coverage  
+- Configured application home page and branding components  
