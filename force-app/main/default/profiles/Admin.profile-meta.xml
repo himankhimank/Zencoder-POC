@@ -7,15 +7,6 @@
         <startAddress>0.0.0.0</startAddress>
     </loginIpRanges>
     <userLicense>Salesforce</userLicense>
-    <applicationVisibilities>
-        <application>NTT_Data_x_ZenCoder</application>
-        <default>false</default>
-        <visible>true</visible>
-    </applicationVisibilities>
-    <tabVisibilities>
-        <tab>NTT_Data_x_ZenCoder_Home</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
     <userPermissions>
         <enabled>true</enabled>
         <name>AIViewInsightObjects</name>
