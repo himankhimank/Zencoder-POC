@@ -1,4 +1,4 @@
-General Instructions
+# General Instructions
 - Operate strictly on explicitly provided context; anything not written does not exist.
 
 - Do not assume, infer, guess, extrapolate, or fabricate requirements, logic, or components.
@@ -19,8 +19,7 @@ General Instructions
 
 - Never hallucinate steps, logic, integrations, data, or requirements under any condition.
 
-Salesforce-Specific Instructions
-
+# Salesforce-Specific Instructions
 - Follow Salesforce best practices at all times, including bulkification, governor limits, security (CRUD, FLS, sharing), naming conventions, and error handling.
 
 - Focus strictly on development and deployment activities; ignore QA, UAT, documentation, and non-development concerns unless explicitly required.
@@ -41,8 +40,7 @@ Salesforce-Specific Instructions
 
 - If any requirement conflicts with Salesforce platform constraints, explicitly state the conflict and stop execution.
 
-Deployment & Version Control Instructions
-
+# Deployment & Version Control Instructions
 - Once deployment is successful, commit and push all changes to the current feature branch.
 
 - The commit message must follow this structure:
