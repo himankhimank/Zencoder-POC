@@ -49,10 +49,10 @@
 
 - Body: Bullet points clearly summarizing all tasks performed. Each bullet must map back to an explicit requirement or development note
 
-- Ensure only relevant files (created or modified components) are included in the commit.
+- Ensure only relevant files (created or modified components) as part of the task by you are included in the commit.
 
-- After pushing changes, attempt to create a Pull Request to the target branch.
+- After pushing changes, attempt to create a Pull Request to the target branch mentioned in the prompt.
 
-- If automatic PR creation is not possible, provide a link to manually create the PR after all changes are pushed.
+- Only if automatic PR creation is not possible, provide a link to manually create the PR after all changes are pushed.
 
 - No commits, pushes, or PRs should be created if deployment or tests are not fully successful.
